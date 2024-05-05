@@ -1,1 +1,25 @@
+1 En linux tengo que crear mi clave publica y privada con:
+  ssh-keygen (-t rsa, esto es opcional)  
+  Es opcional ponerle passprase cuando lo pide
+  Esto genera id_rsa y id_rsa.pub
+
+2 Copio la clave publica al servidor al que me quiero conectar
+  ssh-copy-id -i id_rsa.pub user@<ip---->
+  Eso genera un archivo en el server "authorized_heys" donde agrega la key publica del cliente.
+DATO: si quiero puedo agregar multimples llaves publicas una bajo la otra en el archivo "authorized_heys"
+
+3 
+
+
+Copio la clave publica desde windows al servidor 
+scp <donde esta>/publica user@<ip----->:~/.ssh/authorized_heys
+
+Para entrar con ssh y key el comando es ssh -i <llave_publica> user@<-------ip----->
+
+
+MAS SEGURIDAD quitando acceso ssh con usuarios y solo con keys
+edito /etc/ssh/sshd_config
+PasswordAuthentication no
+ChallegeResponseAutentication no
+
 
