@@ -1,0 +1,14 @@
+###################################################
+sudo apt update -y && sudo apt dist-upgade -y 
+Este comando se utiliza en sistemas basados en Debian (como Ubuntu) para actualizar el índice de paquetes disponibles y luego actualizar todos los paquetes instalados en el sistema.
+
+sudo: Ejecuta el comando con privilegios de superusuario.
+apt update -y: Actualiza el índice de paquetes disponibles. El flag -y se utiliza para confirmar automáticamente todas las preguntas de confirmación.
+&&: Es un operador lógico que significa "y". En este contexto, se usa para ejecutar el siguiente comando solo si el primero se ejecuta correctamente.
+sudo apt dist-upgrade -y: Actualiza todos los paquetes instalados en el sistema a las versiones más recientes disponibles. Al igual que antes, el flag -y confirma automáticamente todas las preguntas de confirmación.
+
+
+###################################################
+
+
+
