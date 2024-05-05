@@ -10,5 +10,22 @@ sudo apt dist-upgrade -y: Actualiza todos los paquetes instalados en el sistema 
 
 ###################################################
 
+sudo apt install locate -y
 
+###################################################
+
+sudo apt clean 
+El comando sudo apt clean se utiliza para eliminar todos los paquetes descargados localmente que ya no son necesarios. 
+Cuando instalas o actualizas paquetes en un sistema basado en Debian (como Ubuntu) utilizando el administrador de paquetes APT, los archivos de paquetes se descargan y se almacenan localmente en el sistema. 
+Con el tiempo, estos archivos pueden ocupar espacio en disco innecesariamente.
+Al ejecutar sudo apt clean, se eliminan todos estos archivos de paquetes descargados, liberando espacio en disco. Este comando no elimina los paquetes instalados ni afecta la funcionalidad del sistema, 
+solo limpia el almacenamiento local de archivos de paquetes descargados.
+
+###################################################
+
+sudo apt autoremove
+
+El comando sudo apt autoremove se utiliza para eliminar automáticamente los paquetes que fueron instalados como dependencias de otros paquetes, 
+pero que ya no son necesarios y no están siendo utilizados por ningún otro paquete en el sistema. 
+Esto ayuda a mantener limpio el sistema y a liberar espacio en disco al eliminar software que ya no se necesita.
 
