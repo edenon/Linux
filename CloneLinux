@@ -1,0 +1,9 @@
+See the ID
+cat /etc/machine-id
+
+sudo truncate -s 0 /etc/machine-id
+El comando sudo truncate -s 0 /etc/machine-id se utiliza para vaciar el contenido del archivo /etc/machine-id. Este archivo contiene un identificador único de la máquina y se utiliza para identificar de manera única un sistema Linux. 
+Al vaciar este archivo con truncate -s 0, se eliminará su contenido, lo que hará que el identificador de la máquina se reinicie o se establezca en blanco.
+
+Este comando puede ser útil en situaciones donde necesitas regenerar el identificador de la máquina, por ejemplo, cuando clonas una máquina virtual y deseas que la nueva máquina tenga un identificador de máquina único. 
+Sin embargo, ten en cuenta que vaciar este archivo puede tener efectos en ciertos sistemas y aplicaciones que dependen de la unicidad del identificador de la máquina.
