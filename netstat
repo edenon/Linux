@@ -1,0 +1,15 @@
+Mostrar todas las conexiones de red: netstat -a
+
+Mostrar conexiones de red establecidas: netstat -n -t
+
+Mostrar puertos en escucha: netstat -n -l
+
+Mostrar estadísticas de protocolos de red: netstat -s
+
+Mostrar tabla de enrutamiento: netstat -rn
+
+Mostrar programas que utilizan puertos: sudo netstat -tulpan
+
+Mostrar estadísticas en tiempo real (actualización continua): netstat -c
+
+Mostrar conexiones y direcciones IP de origen/respaldo de las mismas: netstat -ntu
