@@ -1,0 +1,103 @@
+
+Claro, aquí tienes una lista de 100 comandos de Linux junto con breves explicaciones para cada uno:
+
+ls: Lista los archivos y directorios en el directorio actual.
+cd: Cambia el directorio actual.
+pwd: Muestra la ruta del directorio actual.
+mkdir: Crea un nuevo directorio.
+rm: Elimina archivos o directorios.
+cp: Copia archivos y directorios.
+mv: Mueve o renombra archivos y directorios.
+touch: Crea un archivo vacío o actualiza su fecha de acceso/modificación.
+cat: Concatena archivos y muestra su contenido.
+less: Permite visualizar archivos página por página.
+head: Muestra las primeras líneas de un archivo.
+tail: Muestra las últimas líneas de un archivo.
+grep: Busca patrones en archivos.
+find: Busca archivos y directorios.
+chmod: Cambia los permisos de acceso a archivos y directorios.
+chown: Cambia el propietario y el grupo de un archivo o directorio.
+sudo: Ejecuta un comando con privilegios de superusuario.
+su: Cambia al usuario superusuario.
+passwd: Cambia la contraseña de un usuario.
+df: Muestra el espacio en disco disponible y utilizado.
+du: Muestra el uso de espacio en disco de archivos y directorios.
+free: Muestra la memoria RAM y el intercambio libre y utilizado.
+top: Muestra los procesos en ejecución y su uso de recursos.
+ps: Muestra los procesos en ejecución.
+kill: Envía una señal a un proceso para que termine.
+shutdown: Apaga o reinicia el sistema.
+ifconfig: Muestra y configura interfaces de red.
+ping: Envía paquetes ICMP a una dirección para verificar la conectividad de red.
+traceroute: Muestra la ruta que toman los paquetes a través de la red.
+netstat: Muestra conexiones de red, tablas de enrutamiento y estadísticas.
+ssh: Conecta a un servidor remoto de forma segura.
+scp: Copia archivos de forma segura entre hosts a través de SSH.
+rsync: Sincroniza archivos y directorios de forma eficiente.
+tar: Manipula archivos comprimidos en formato tar.
+gzip: Comprime o descomprime archivos usando el algoritmo gzip.
+gunzip: Descomprime archivos comprimidos con gzip.
+zip: Comprime archivos en formato zip.
+unzip: Descomprime archivos zip.
+wget: Descarga archivos desde la web.
+curl: Transfiere datos con sintaxis URL.
+vim o nano: Editores de texto en la línea de comandos.
+history: Muestra el historial de comandos ejecutados.
+alias: Crea alias para comandos largos o frecuentemente usados.
+echo: Muestra texto en la salida estándar.
+date: Muestra la fecha y la hora actual.
+cal: Muestra un calendario.
+uptime: Muestra el tiempo transcurrido desde que el sistema se inició.
+who: Muestra usuarios conectados.
+w: Muestra información detallada sobre los usuarios conectados.
+uname: Muestra información sobre el sistema.
+lsblk: Muestra información sobre dispositivos de bloque.
+lspci: Muestra información sobre los dispositivos PCI conectados.
+lsusb: Muestra información sobre los dispositivos USB conectados.
+lsof: Lista los archivos abiertos por procesos.
+watch: Ejecuta un comando repetidamente y muestra su salida.
+jobs: Muestra los trabajos en segundo plano.
+fg: Trae un trabajo en segundo plano a primer plano.
+bg: Continúa la ejecución de un trabajo en segundo plano.
+crontab: Gestiona tareas programadas.
+at: Ejecuta comandos en un momento específico.
+service: Gestiona servicios del sistema.
+systemctl: Controla el sistema init y los servicios del sistema.
+journalctl: Muestra registros del sistema y registros de servicios.
+iptables: Configura reglas del cortafuegos.
+ufw: Herramienta de configuración de cortafuegos simplificada.
+adduser: Crea un nuevo usuario.
+deluser: Elimina un usuario.
+usermod: Modifica las propiedades de un usuario.
+groupadd: Crea un nuevo grupo.
+groupdel: Elimina un grupo.
+mount: Monta sistemas de archivos.
+umount: Desmonta sistemas de archivos.
+fdisk: Manipula tablas de particiones en discos.
+mkfs: Crea sistemas de archivos en dispositivos.
+blkid: Muestra los identificadores de los dispositivos de bloque.
+grep: Filtra líneas de texto basadas en un patrón.
+awk: Procesa y filtra texto basado en patrones.
+sed: Edita y transforma texto.
+sort: Ordena líneas de texto.
+uniq: Elimina líneas duplicadas de un archivo de texto.
+wc: Cuenta líneas, palabras y caracteres en un archivo de texto.
+tee: Lee de la entrada estándar y escribe tanto en la salida estándar como en uno o más archivos.
+cut: Extrae secciones de líneas de texto.
+paste: Combina líneas de varios archivos.
+diff: Compara archivos línea por línea.
+patch: Aplica diferencias producidas por el comando diff.
+alias: Crea alias para comandos.
+source: Ejecuta comandos desde un archivo en el shell actual.
+export: Establece variables de entorno.
+env: Muestra o modifica las variables de entorno.
+hostname: Muestra o configura el nombre de host del sistema.
+uname: Muestra información sobre el sistema.
+uptime: Muestra el tiempo que ha estado funcionando el sistema.
+shutdown: Apaga o reinicia el sistema.
+reboot: Reinicia el sistema.
+halt: Detiene el sistema.
+poweroff: Apaga el sistema.
+echo: Muestra texto en la salida estándar.
+printf: Imprime texto formateado en la salida estándar.
+exit: Sale del shell actual.
